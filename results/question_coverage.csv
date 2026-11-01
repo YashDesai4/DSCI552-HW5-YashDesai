@@ -1,0 +1,15 @@
+question,included,status
+1(a),Original acute data and two-label encoding,executed and reviewed
+1(b),Whole-dataset tree and training scores,executed and reviewed
+1(c),All full-tree IF-THEN rules,executed and reviewed
+1(d),"Cost-complexity pruning, selected and compact trees and rules",executed and reviewed
+2(a),1495/499 split preserving row order,executed and reviewed
+2(b),Identifiers removed; fold-fitted median imputation,executed and reviewed
+2(c),122-predictor correlation matrix,executed and reviewed
+2(d),122 coefficient-of-variation calculations,executed and reviewed
+2(e),11 highest-CV scatter/box plots and significance explanation,executed and reviewed
+2(f),OLS test error,executed and reviewed
+2(g),CV-selected ridge and test error,executed and reviewed
+2(h),"Both LASSO scales, selected variables and comparison",executed and reviewed
+2(i),PCR with M chosen by fold-fitted PCA CV,executed and reviewed
+2(j),Independent L1 boosting with CV-selected alpha and test error,executed and reviewed

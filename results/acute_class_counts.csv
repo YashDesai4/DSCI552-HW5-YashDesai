@@ -1,0 +1,5 @@
+code,diagnosis,count
+0,Neither,30
+1,Nephritis only,31
+2,Bladder inflammation only,40
+3,Both,19

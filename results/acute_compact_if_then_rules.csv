@@ -1,0 +1,5 @@
+leaf,code,samples,purity,rule
+2,0,10,1.0,"IF lumbar_pain = no AND urine_pushing = no THEN bladder=no, nephritis=no"
+3,2,40,1.0,"IF lumbar_pain = no AND urine_pushing = yes THEN bladder=yes, nephritis=no"
+5,0,20,1.0,"IF lumbar_pain = yes AND temperature <= 37.95 THEN bladder=no, nephritis=no"
+6,1,50,0.62,"IF lumbar_pain = yes AND temperature > 37.95 THEN bladder=no, nephritis=yes"

@@ -1,0 +1,7 @@
+IF lumbar_pain = no AND urine_pushing = no THEN bladder=no, nephritis=no
+
+IF lumbar_pain = no AND urine_pushing = yes THEN bladder=yes, nephritis=no
+
+IF lumbar_pain = yes AND temperature <= 37.95 THEN bladder=no, nephritis=no
+
+IF lumbar_pain = yes AND temperature > 37.95 THEN bladder=no, nephritis=yes

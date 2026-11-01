@@ -1,0 +1,22 @@
+Completed HW5 verification
+- All 17 notebook code cells executed sequentially without errors.
+- All 11 figure outputs embedded in the notebook and saved as PNG files.
+- Original UCI bytes preserved exactly for all four uploaded data/name files.
+- Acute data: 120 rows, 6 predictors, 2 targets; powerset encoding verified.
+- Full/one-SE/compact IF-THEN rules reproduce their fitted tree predictions.
+- Crime data: 1994 rows; first 1495 train, remaining 499 test; 122 predictors.
+- All 499 per-row test predictions reproduce the six reported MSE/RMSE values.
+- Full 122-feature CV table, 11 selected plotting features, 122x122 correlation matrix.
+- Complete LASSO selected-variable lists: 75 original-scale, 76 standardized.
+- PCA searched for all M=1,...,122 in each of five training folds.
+- All 8 boosting alpha candidates evaluated by five-fold training CV.
+- No fitting warnings recorded.
+- All displayed source code compiles; all saved figure layouts visually reviewed.
+- Four independent boosting checks passed: leaf optimum, large-L1 limit,
+  unpenalized sklearn-reference equivalence, and pipeline cross-validation interface.
+- Pruning/regularization choices and finite-grid scope are disclosed in the notebook.
+
+Section 2(j) uses the included independent L1-regularized histogram boosting
+implementation. XGBoost itself was not installed or executed. The PDF makes
+XGBoost optional. CV chose alpha=0, which is explicitly identified as the
+unpenalized endpoint rather than presented as evidence of a positive-L1 gain.
